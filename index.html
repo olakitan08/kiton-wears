@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kiton Wears</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="logo">Kiton Wears</div>
+    <nav>
+      <a href="#collection">Collection</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#cart">🛒 Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Discover Your Style</h1>
+    <p>Premium fashion, designed for you.</p>
+    <a href="#collection" class="btn">Shop Now</a>
+  </section>
+
+  <section id="collection" class="collection">
+    <h2>Our Collection</h2>
+    <div class="grid">
+      <div class="item">
+        <img src="images/outfit1.jpg" alt="Outfit 1"/>
+        <h3>Classic Shirt</h3>
+        <p>$40</p>
+        <button class="btn add-to-cart" data-name="Classic Shirt" data-price="40">Add to Cart</button>
+      </div>
+      <div class="item">
+        <img src="images/outfit2.jpg" alt="Outfit 2"/>
+        <h3>Summer Dress</h3>
+        <p>$55</p>
+        <button class="btn add-to-cart" data-name="Summer Dress" data-price="55">Add to Cart</button>
+      </div>
+      <div class="item">
+        <img src="images/outfit3.jpg" alt="Outfit 3"/>
+        <h3>Casual Jacket</h3>
+        <p>$70</p>
+        <button class="btn add-to-cart" data-name="Casual Jacket" data-price="70">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="cart" class="cart">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: $0</p>
+    <button class="btn checkout">Checkout</button>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Kiton Wears</h2>
+    <p>Kiton Wears brings you high-quality fashion pieces inspired by elegance
+       and comfort. Our mission is to make you look and feel your best.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <p>Email us: <a href="mailto:info@kitonwears.com">info@kitonwears.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kiton Wears. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
